@@ -135,18 +135,19 @@ img {
 
 /* Main */
 .section-hero {
-  margin-bottom: 120px;
+  padding: 188px 0 188px 0;
+
   min-height: 600px;
 
   background-color: var(--pitel-text-color);
 }
 
 .hero {
-  padding-left: 472px;
-  padding-right: 472px;
-  padding-top: 188px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   margin-bottom: 48px;
+  max-width: 496px;
 
   color: var(--hero-text-color);
   font-style: normal;
@@ -157,13 +158,13 @@ img {
   letter-spacing: 0.02em;
 }
 .buttons {
-  display: flex;
-  padding: 16px 32px;
-  margin-bottom: 188px;
-  margin-right: auto;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
   min-width: 169px;
-  border: transparent;
+  height: 56px;
+  border: none;
 
   color: var(--hero-text-color);
   background-color: var(--buton-text-color);
@@ -187,11 +188,11 @@ img {
 /* section company */
 
 .action {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .company {
-  margin-bottom: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .company-list {
@@ -313,7 +314,8 @@ img {
 
 .footer {
   display: flex;
-  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
   min-height: 312px;
 
   background-color: var(--pitel-text-color);
@@ -324,7 +326,7 @@ img {
 }
 
 .logo-footer {
-  display: flex;
+  display: inline-block;
   margin-bottom: 16px;
 
   color: var(--buton-text-color);
@@ -340,7 +342,7 @@ img {
 }
 
 .span-logo-footer {
-  display: flex;
+  display: inline-block;
 
   color: #ffffff;
 
@@ -368,6 +370,10 @@ img {
 
 /* portfolio.html */
 
+.portfolio-main {
+  padding: 96px 0 120px 0;
+}
+
 /* buttons portfolio */
 
 .gallery-section {
@@ -379,7 +385,6 @@ img {
 }
 
 .buttons-ul {
-  margin-top: 96px;
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
