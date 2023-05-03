@@ -278,7 +278,18 @@ img {
 
 .Teams-ul {
   display: flex;
+  gap: 24px;
   justify-content: space-between;
+}
+
+.Teams-h3-and-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  padding: 32px 16px;
 }
 
 .teams-list {
@@ -286,8 +297,7 @@ img {
   border-radius: 0 0 4px 4px;
 }
 .teams-list-title {
-  margin-top: 32px;
-  margin-bottom: 8px;
+  margin: 0;
 
   color: var(--pitel-text-color);
 
@@ -299,8 +309,9 @@ img {
 }
 
 .teams-text {
-  padding-bottom: 32px;
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 
   color: var(--primary-text-color);
 
