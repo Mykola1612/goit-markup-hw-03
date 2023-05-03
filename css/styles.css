@@ -429,6 +429,10 @@ img {
 
 /* gallery */
 
+.list-photo-h2-and-p {
+  padding: 32px 16px;
+}
+
 .list-photo {
   display: flex;
   flex-wrap: wrap;
@@ -446,7 +450,7 @@ img {
   color: #f4f4fd;
 }
 .portfolio-main-title {
-  margin-top: 32px;
+  margin-top: 0;
   margin-bottom: 0;
 
   color: var(--pitel-text-color);
