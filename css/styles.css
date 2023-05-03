@@ -72,10 +72,7 @@ img {
 
 .site-nav {
   display: flex;
-}
-
-.site-nav .item:not(:last-child) {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .navigation-link {
