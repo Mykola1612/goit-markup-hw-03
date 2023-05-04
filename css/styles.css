@@ -442,11 +442,11 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .list-photo-li {
-  margin-bottom: 48px;
   width: 360px;
 }
 
