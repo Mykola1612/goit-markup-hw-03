@@ -280,13 +280,13 @@ img {
   text-transform: capitalize;
 }
 
-.Teams-ul {
+.teams-ul {
   display: flex;
   gap: 24px;
   justify-content: space-between;
 }
 
-.Teams-h3-and-p {
+.teams-h3-and-p {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -457,7 +457,7 @@ img {
 }
 .portfolio-main-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 8px;
 
   color: var(--pitel-text-color);
 
@@ -468,7 +468,7 @@ img {
   letter-spacing: 0.02em;
 }
 .portfolio-main-text {
-  margin-top: 8px;
+  margin-top: 0;
   margin-bottom: 0;
 
   color: var(--primary-text-color);
