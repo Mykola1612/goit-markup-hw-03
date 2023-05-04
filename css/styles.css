@@ -393,10 +393,6 @@ img {
   background-color: #ffffff;
 }
 
-.buttons-ul .item + .item {
-  margin-left: 24px;
-}
-
 .buttons-ul {
   margin-bottom: 72px;
   display: flex;
@@ -407,12 +403,14 @@ img {
 
 .buttons-list {
   display: flex;
+  padding: 12px 24px;
+
+  border: 1px solid #e7e9fc;
 
   color: var(--buton-text-color);
   background-color: #f4f4fd;
 
   font-family: 'Roboto', sans-serif;
-  border: none;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -434,6 +432,9 @@ img {
 /* gallery */
 
 .list-photo-h2-and-p {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+
   padding: 32px 16px;
 }
 
@@ -448,6 +449,7 @@ img {
 
 .list-photo-li {
   width: 360px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .span-logo-footer {
