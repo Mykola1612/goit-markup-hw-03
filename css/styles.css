@@ -295,11 +295,6 @@ img {
 }
 
 .teams-h-and-p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
   padding: 32px 16px;
 }
 
@@ -308,6 +303,7 @@ img {
   border-radius: 0 0 4px 4px;
 }
 .teams-list-title {
+  text-align: center;
   margin: 0;
   margin-bottom: 8px;
 
@@ -322,6 +318,7 @@ img {
 
 .teams-text {
   margin: 0;
+  text-align: center;
 
   color: var(--primary-text-color);
 
