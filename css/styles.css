@@ -72,7 +72,15 @@ img {
 
 .site-nav {
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
+}
+
+.site-nav .item {
+  margin-right: 40px;
+}
+
+.site-nav .item-li {
+  margin-right: 0;
 }
 
 .navigation-link {
@@ -286,7 +294,7 @@ img {
   justify-content: space-between;
 }
 
-.teams-h3-and-p {
+.teams-h-and-p {
   display: flex;
   flex-direction: column;
   justify-content: center;
